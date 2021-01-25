@@ -22,7 +22,6 @@ const Hero = () => {
       childImageSharp: { fluid },
     },
   } = useStaticQuery(query)
-  console.log(fluid)
   return (
     <header className="hero">
       <div className="section-center hero-center">
@@ -31,7 +30,7 @@ const Hero = () => {
             <div className="underline"></div>
             <h1>Hi i'm Janek</h1>
             <h4> web and mobile developer</h4>
-            <Link to="/contact" className="btn" >
+            <Link to="/contact" className="btn">
               contact me
             </Link>
             <SocialLinks />
